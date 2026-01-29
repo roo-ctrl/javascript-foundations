@@ -14,7 +14,7 @@ const helloWorld = require('./helloWorld');
 
 describe('Hello World', function() {
   test('says "Hello, World!"', function() {
-    expect(helloWorld()).toEqual('Hello, World!');
+    expect(helloWorld()).toEqual('Hello, World!');  // testing helloWorld() outputs inside toEqual(''hello the terminal watch a fail the output from the I have a test)
   });
 });
 ```
